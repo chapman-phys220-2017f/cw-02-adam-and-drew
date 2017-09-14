@@ -1,6 +1,6 @@
 # PHYS220 CW 2
 
-**Author(s):** **CHANGEME**
+**Author(s):** Adam Schaffroth, Drew Papilon
 
 ## Specification
 
@@ -63,6 +63,9 @@ the coordinates in a list.
 
 Analyze in this section what you found useful about this assignment in your own words. Include any lingering questions or comments that you may have.
 
+
+I thought the assignment was very useful for learning the basics of python. I have no previous knowledge of the language.
+
 **CHANGEME**
 
 ## Honor Pledge
@@ -74,4 +77,4 @@ I pledge that all the work in this repository is my own with only the following 
 
 Signed,
 
-**YOURNAME**
+Adam Schaffroth, Drew 
