@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 def fib(n):
-    fibArray = [1,1]
+    fibArray = [1,1]                                    ### Could define this in the elif for n>2
     if (n == 1):
         return [1]
     elif (n == 2):
@@ -11,7 +11,7 @@ def fib(n):
             fibArray.append(fibArray[i-2]+fibArray[i-1])
         return fibArray
     else:
-        print("error")
+        print("error")                                  ### Danger! Be careful to return consistent types. Better to throw an exception in the case of an input error.
         
 def fib_generator():
     a = 1
@@ -24,7 +24,7 @@ def fib_generator():
         
 
 if __name__ == "__main__":
-    n = input("Please choose a value for n: ")
+    n = input("Please choose a value for n: ")         ### Never use input(). Use command-line arguments here.
     print(fib(n))
     print("Time for the fib generator!")
     gen = fib_generator()
